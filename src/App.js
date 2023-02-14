@@ -59,9 +59,7 @@ function App() {
   return (
     <Bookshelf>
       <EachSection>
-        {/* <Link to="/book"> */}
         <Score_image className="image" src={bach} alt="bach" />
-        {/* </Link> */}
         <div>예제</div>
       </EachSection>
 
