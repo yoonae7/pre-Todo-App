@@ -1,8 +1,10 @@
-// .eslintrc.json
 {
   "env": {
     "browser": true,
     "es2021": true
+  },
+  "editor.codeActionsOnSave" : {
+    "source.fixAll.eslint": true
   },
   "extends": [
     "eslint:recommended",

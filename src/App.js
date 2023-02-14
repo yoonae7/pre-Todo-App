@@ -1,7 +1,7 @@
-import "./App.css";
-import styled from "styled-components";
-import bach from "../src/images/Bach.png";
-import schumann from "../src/images/Schumann.png";
+import './App.css';
+import styled from 'styled-components';
+import bach from '../src/images/Bach.png';
+import schumann from '../src/images/Schumann.png';
 // import { Link } from "react-router-dom";
 
 // function App() {
@@ -66,9 +66,7 @@ function App() {
       </EachSection>
 
       <EachSection>
-        {/* <Link to="/repertoire"> */}
         <Score_image className="image" src={schumann} alt="shumann" />
-        {/* </Link> */}
         <div>레퍼토리</div>
       </EachSection>
     </Bookshelf>
